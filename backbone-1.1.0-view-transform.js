@@ -11,6 +11,13 @@
  *   // End Backbone 1.1.0
  *
  * The local `options` variable is replaced with the name of the first argument to this initialize method. If none found, one is created.
+ * 
+ * Setup:
+ *   * Install jscodeshift (https://github.com/facebook/jscodeshift#install)
+ *       npm install -g jscodeshift
+ * 
+ * Run:
+ *     jscodeshift path/to/source/files/ -t path/to/backbone-1.1.0-view-transform.js
  */
 
 module.exports = function (file, api) {
