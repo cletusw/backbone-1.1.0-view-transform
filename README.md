@@ -1,6 +1,6 @@
 # Backbone 1.1.0 View Transform
 
-Fixes breaking change in Backbone 1.1.0 by appending the following to the begining of the initialize method of Backbone Views
+Codemod to fix breaking change in Backbone 1.1.0 by appending the following to the begining of the initialize method of Backbone Views
 
 ```javascript
 // Backbone 1.1.0 - Backbone Views no longer automatically attach options passed to the constructor as this.options
